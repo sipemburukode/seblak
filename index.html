@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Seblak sepuasnya, topping bebas, kuah bisa pilih level pedas. Yuk, ajak bestie makan di Seblak Nyala!"
+    />
+    <meta name="theme-color" content="#fff8ef" />
+    <title>Seblak Nyala — Pedasnya Bikin Balik Lagi</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#beranda" aria-label="Seblak Nyala, beranda">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span>seblak<span class="brand-accent">nyala</span></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Buka navigasi"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        <span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navigasi utama">
+        <a href="#menu">Menu</a>
+        <a href="#paket">Paket AYCE</a>
+        <a href="#cerita">Kenapa Nyala?</a>
+        <a class="nav-cta" href="#pesan">Ajak bestie <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-wrap" id="beranda">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> SEBLAK ALL YOU CAN EAT</p>
+          <h1>Pedasnya<br />bebas. <span>Serunya</span><br />puas.</h1>
+          <p class="hero-description">
+            Pilih topping sesukamu, racik level pedasmu. Makan seblak sepuasnya,
+            waktunya happy bareng bestie!
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#paket">Lihat paket AYCE <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#menu">Intip menunya <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-proof">
+            <div class="avatar-stack" aria-hidden="true">
+              <span>🌶️</span><span>🥢</span><span>😋</span>
+            </div>
+            <p><strong>Level pedas sesukamu</strong><br />Topping rame, mood jadi seru</p>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image" role="img" aria-label="Semangkuk mi pedas hangat dengan topping melimpah"></div>
+          <div class="image-sticker sticker-top"><span>🌶️</span> PEDASNYA<br />BISA DIATUR</div>
+          <div class="image-sticker sticker-bottom"><span>♾️</span><div><strong>MAKAN PUAS</strong><small>90 menit seru-seruan</small></div></div>
+          <span class="hero-spark spark-one" aria-hidden="true">✳</span>
+          <span class="hero-spark spark-two" aria-hidden="true">✦</span>
+        </div>
+        <a class="scroll-cue" href="#menu" aria-label="Gulir ke menu"><span></span> GULIR BUAT LAPAR</a>
+      </section>
+
+      <section class="ticker" aria-label="Keunggulan Seblak Nyala">
+        <div class="ticker-track">
+          <span>TOPPING SEPUASNYA</span><i>✳</i><span>PEDAS SESUAI SELERA</span><i>✳</i><span>MAKAN BARENG BESTIE</span><i>✳</i>
+          <span>TOPPING SEPUASNYA</span><i>✳</i><span>PEDAS SESUAI SELERA</span><i>✳</i><span>MAKAN BARENG BESTIE</span><i>✳</i>
+        </div>
+      </section>
+
+      <section class="menu-section section-wrap" id="menu">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-dot"></span> PILIHAN TOPPING SEBLAK</p>
+            <h2>Aneka topping,<br /><span>bebas pilih.</span></h2>
+          </div>
+          <p class="heading-note">Pilih topping favoritmu dan racik<br />semangkuk seblak versimu.</p>
+        </div>
+
+        <div class="topping-grid">
+          <article class="topping-group">
+            <h3>Kerupuk & pelengkap</h3>
+            <ul class="topping-list">
+              <li><span>Kerupuk kuning</span><span class="topping-price">Rp1.000 <small>/ctg</small></span></li>
+              <li><span>Kerupuk kriting</span><span class="topping-price">Rp2.000 <small>/ctg</small></span></li>
+              <li><span>Mie</span><span class="topping-price">Rp2.000</span></li>
+              <li><span>Jamur enoki</span><span class="topping-price">Rp2.000</span></li>
+              <li><span>Pilus cikur</span><span class="topping-price">Rp2.000 <small>/ctg</small></span></li>
+              <li><span>Siomay kering</span><span class="topping-price">Rp2.000 <small>/ctg</small></span></li>
+            </ul>
+          </article>
+          <article class="topping-group">
+            <h3>Dumpling & seafood</h3>
+            <ul class="topping-list">
+              <li><span>Dumpling ayam</span><span class="topping-price">Rp2.000</span></li>
+              <li><span>Dumpling keju</span><span class="topping-price">Rp2.000</span></li>
+              <li><span>Cikuwa</span><span class="topping-price">Rp2.000</span></li>
+              <li><span>Odeng</span><span class="topping-price">Rp2.000</span></li>
+              <li><span>Crab stick</span><span class="topping-price">Rp2.000</span></li>
+              <li><span>Cumi</span><span class="topping-price">Rp2.000</span></li>
+              <li><span>Udang</span><span class="topping-price">Rp2.000</span></li>
+            </ul>
+          </article>
+          <article class="topping-group">
+            <h3>Bakso & lainnya</h3>
+            <ul class="topping-list">
+              <li><span>Bakso sapi</span><span class="topping-price">Rp2.000</span></li>
+              <li><span>Bakso ikan</span><span class="topping-price">Rp2.000</span></li>
+              <li><span>Bakso udang</span><span class="topping-price">Rp2.000</span></li>
+              <li><span>Sosis kecil</span><span class="topping-price">Rp2.000</span></li>
+              <li><span>Sosis jumbo</span><span class="topping-price">Rp5.000</span></li>
+              <li><span>Sosis merah</span><span class="topping-price">Rp3.000</span></li>
+              <li><span>Otak-otak Singapur</span><span class="topping-price">Rp5.000</span></li>
+              <li><span>Ceker</span><span class="topping-price">Rp2.000</span></li>
+              <li><span>Sayap</span><span class="topping-price">Rp5.000</span></li>
+              <li><span>Telur</span><span class="topping-price">Rp3.000</span></li>
+            </ul>
+          </article>
+        </div>
+        <p class="menu-disclaimer">Harga dalam rupiah. Item bertanda /ctg mengikuti satuan pada menu.</p>
+      </section>
+
+      <section class="deal-section" id="paket">
+        <div class="deal-inner section-wrap">
+          <div class="deal-copy">
+            <p class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> SATU HARGA, BANYAK CERITA</p>
+            <h2>Datang lapar.<br /><span>Pulang kenyang.</span></h2>
+            <p>Waktu makan 90 menit buat eksplor semua rasa favoritmu. Ajak gengmu, karena seblak selalu lebih seru kalau rame-rame.</p>
+            <a class="button button-light" href="#pesan">Gas, reservasi dulu <span aria-hidden="true">↗</span></a>
+            <span class="deal-note">*Harga dan ketentuan paket dapat disesuaikan oleh kedai.</span>
+          </div>
+          <div class="price-card">
+            <span class="price-label">PAKET SEPUASNYA</span>
+            <div class="price-illustration" aria-hidden="true"><span>🌶️</span><i>✳</i></div>
+            <p class="price-caption">Mulai dari</p>
+            <p class="price"><span>Rp</span>29<span class="price-thousand">.000</span><small>/ orang</small></p>
+            <div class="price-divider"></div>
+            <ul>
+              <li><span>✓</span> Pilih topping favorit</li>
+              <li><span>✓</span> Racik level pedas sendiri</li>
+              <li><span>✓</span> Nikmati selama 90 menit</li>
+            </ul>
+            <span class="price-stamp">MAKAN<br />PUAS!</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-section section-wrap" id="cerita">
+        <div class="why-intro">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> BUKAN SEBLAK BIASA</p>
+          <h2>Kenapa harus<br /><span>yang Nyala?</span></h2>
+          <p>Karena setiap orang punya versi seblak favoritnya sendiri. Di sini, kamu yang jadi chef-nya.</p>
+        </div>
+        <div class="why-list">
+          <article><span class="why-icon">🫶</span><div><h3>Racik sesuka hati</h3><p>Mau kuah gurih, pedas nampol, atau nyemek? Kamu yang tentukan.</p></div><span class="why-index">01</span></article>
+          <article><span class="why-icon">🍜</span><div><h3>Topping bebas pilih</h3><p>Mix and match isi mangkuk sampai ketemu kombinasi andalanmu.</p></div><span class="why-index">02</span></article>
+          <article><span class="why-icon">👯</span><div><h3>Makin rame makin seru</h3><p>Tempat yang pas buat ketemu, cerita, dan tambah satu mangkuk lagi.</p></div><span class="why-index">03</span></article>
+        </div>
+      </section>
+
+      <section class="order-section section-wrap" id="pesan">
+        <div class="order-card">
+          <div class="order-doodle" aria-hidden="true">✳</div>
+          <p class="eyebrow"><span class="eyebrow-dot"></span> PERUT SUDAH KASIH KODE?</p>
+          <h2>Seblak dulu,<br /><span>baru kamu.</span></h2>
+          <p class="location-badge"><span aria-hidden="true">📍</span> Cileunyi, Kabupaten Bandung</p>
+          <p class="order-description">Mampir makan seblak bareng bestie di Cileunyi. Chat kami untuk tanya alamat lengkap dan ketersediaan tempat.</p>
+          <a
+            class="button button-primary"
+            href="https://wa.me/?text=Halo%20Seblak%20Nyala%2C%20aku%20mau%20tanya%20paket%20AYCE%20dan%20lokasi%20kedainya."
+            target="_blank"
+            rel="noopener noreferrer"
+          >Chat untuk reservasi <span aria-hidden="true">↗</span></a>
+          <span class="order-footnote">Tautan WhatsApp akan membuka pilihan kontak di perangkatmu.</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#beranda"><span class="brand-mark" aria-hidden="true">S</span><span>seblak<span class="brand-accent">nyala</span></span></a>
+      <p>Pedasnya bikin balik lagi. <span aria-hidden="true">🌶️</span></p>
+      <a href="#beranda">Kembali ke atas ↑</a>
+      <small>© <span id="current-year"></span> Seblak Nyala. Makan enak, hati senang.</small>
+    </footer>
+  </body>
+</html>
